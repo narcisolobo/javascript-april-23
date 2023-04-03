@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
+.vscode
 
 # algorithms
-w1d1-bubble-sort.js
 w1d2-selection-sort.js
 w1d3-insertion-sort.js
 w1d4-merge-sort.js
@@ -18,3 +18,5 @@ w1d1-fundamentals
 w1d1-node
 w1d2-functional-programming
 w1d2-oop
+
+02-react

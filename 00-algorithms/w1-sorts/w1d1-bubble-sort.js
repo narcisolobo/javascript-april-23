@@ -29,5 +29,24 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} The given nums after being sorted.
  */
 function bubbleSort(nums = []) {
-  // your code here
+  let n = nums.length;
+  let isSorted = false;
+
+  for (let k = 0; k < n - 1; k++) {
+    if (isSorted === false) {
+      isSorted = true;
+      for (let i = 0; i < n - k - 1; i++) {
+        if (nums[i] > nums[i + 1]) {
+          isSorted = false;
+          const temp = nums[i];
+          nums[i] = nums[i + 1];
+          nums[i + 1] = temp;
+        }
+      }
+    }
+  }
+  return nums;
 }
+
+const result = bubbleSort(numsReversed);
+console.log(result);

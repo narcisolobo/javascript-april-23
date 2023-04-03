@@ -15,7 +15,7 @@ const myGuitar = {
   make: 'Fender',
   model: 'Stratocaster',
   year: 1977,
-  color: 'red'
+  color: 'red',
 };
 
 // alias
@@ -27,10 +27,28 @@ let bag = 'oranges';
 
 [bowl, bag] = [bag, bowl];
 
-console.log(bowl, bag) // oranges apples
+console.log(bowl, bag); // oranges apples
 
 const mern = ['MongoDB', 'Express.js', 'React', 'Node.js'];
 
-[ mern[0], mern[3] ] = [ mern[3], mern[0] ];
+[mern[0], mern[3]] = [mern[3], mern[0]];
 
 console.log(mern); // ['Node.js', 'Express.js', 'React', 'MongoDB']
+
+function objectReturn() {
+  return {
+    firstName: 'kermit',
+    occupation: 'variety show host',
+  };
+}
+
+const { firstName, occupation } = objectReturn();
+
+console.log(firstName, occupation);
+
+function arrayReturn() {
+  return ['first', 'second'];
+}
+
+const [x, y] = arrayReturn();
+console.log(x, y);

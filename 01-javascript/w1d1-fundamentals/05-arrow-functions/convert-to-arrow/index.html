@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Arrow Functions</title>
+  </head>
+  <body id="body">
+    <h1>My Boring Website</h1>
+    <!-- previous elements removed -->
+    <p
+      id="myParagraph"
+      onmouseover="mouseOverFunction(this)"
+      onclick="setBackgroundColorById('myParagraph', getValueFromId('myInput'))"
+    >
+      Another task: This should be another feature. I want to click anywhere in
+      this paragraph tag and I want to be able to change the background color to
+      whatever is in this input:
+      <input id="myInput" type="text" />.
+    </p>
+    <script>
+      // previous functions removed
+      const getValueFromId = (id) => document.getElementById(id).value;
+      const setBackgroundColorById = (id, color) =>
+        (document.getElementById(id).style = "background-color: " + color);
+      const mouseOverFunction = (el) => (el.style = "background-color: black");
+    </script>
+  </body>
+</html>

@@ -13,3 +13,6 @@ Here you will find all the code as well as detailed README files for all of the 
    6. [Ternary Operator](./01-javascript/w1d1-fundamentals/06-ternary-operator/)
 2. Week 1, Day 2 - OOP and Functional Programming:
    1. [OOP in JavaScript](./01-javascript/w1d2-oop/)
+   2. [Functional Programming](./01-javascript/w1d2-functional-programming/)
+   3. [Callback Functions](./01-javascript/w1d2-functional-programming/01-callback-functions/)
+   4. [Map and Filter](./01-javascript/w1d2-functional-programming/02-map-and-filter/)

@@ -65,4 +65,4 @@ array.map(function(currentValue, index, arr), thisValue)
 | currentValue | Required. The value of the current element.                                                     |
 | index        | Optional. The index of the current element.                                                     |
 | arr          | Optional. The array of the current element.                                                     |
-| thisValue    | Optional. Default value undefined. A value passed to the function to be used as its this value. |
+| thisValue    | Optional. Default value undefined. A value passed to the function to be used as its `this` value. |

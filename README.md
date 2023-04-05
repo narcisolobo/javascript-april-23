@@ -16,3 +16,7 @@ Here you will find all the code as well as detailed README files for all of the 
    2. [Functional Programming](./01-javascript/w1d2-functional-programming/)
    3. [Callback Functions](./01-javascript/w1d2-functional-programming/01-callback-functions/)
    4. [Map and Filter](./01-javascript/w1d2-functional-programming/02-map-and-filter/)
+3. Week 1, Day 3 - React Intro
+   1. [Intro to React](./02-react/w1d3-intro-to-react/)
+   2. [Why React?](./02-react/w1d3-intro-to-react/why-react/)
+   3. [create-react-app](./02-react/w1d3-cra/)

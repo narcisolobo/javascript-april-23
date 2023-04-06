@@ -2,9 +2,9 @@
 
 ## Week 1 - Sorts
 1. [Bubble Sort](./w1-sorts/w1d1-bubble-sort.js)
-<!-- 2. [Selection Sort](./w1-sorts/w1d2-selection-sort.js) -->
-<!-- 3. [Insertion Sort](./w1-sorts/w1d3-insertion-sort.js) -->
-<!-- 4. [Merge Sort](./w1-sorts/w1d4-merge-sort.js) -->
+2. [Selection Sort](./w1-sorts/w1d2-selection-sort.js)
+3. [Insertion Sort](./w1-sorts/w1d3-insertion-sort.js)
+4. [Merge Sort](./w1-sorts/w1d4-merge-sort.js)
 <!-- 5. [Quick Sort](./w1-sorts/w1d5-quick-sort.js) -->
 
 ## Week 2 - Sets and Arrays

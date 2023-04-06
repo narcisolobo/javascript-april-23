@@ -47,7 +47,12 @@ const expectedMerge4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  *    both given halves.
  */
 function merge(left = [], right = []) {
-  // your code here
+  // 1. create empty array
+  // 2. create pointer to leftIdx
+  // 3. create pointer to rightIdx
+  // 4. loop (what kind of loop? what is the condition?)
+  // 5. one side may have finished before the other
+  //    call in the cleanup crew
 }
 
 const numsOrdered = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -65,5 +70,11 @@ const expectedSort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} A New sorted array.
  */
 function mergeSort(nums = []) {
-  // your code here
+  // 1. base case
+  // 2. find middle index
+  // 3. create left slice
+  // 4. create right slice
+  // 5. recursive call for sortedLeft
+  // 6. recursive call for sortedRight
+  // 7. return merge(sortedLeft, sortedRight)
 }

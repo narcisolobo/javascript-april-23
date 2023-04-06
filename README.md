@@ -21,3 +21,5 @@ Here you will find all the code as well as detailed README files for all of the 
    2. [Why React?](./02-react/w1d3-intro-to-react/why-react/)
    3. [create-react-app](./02-react/w1d3-cra/)
    4. [Components](./02-react/w1d3-components/)
+4. Week 1, Day 4 - Forms
+   1. [Forms and Validation](./02-react/w1d4-forms/)

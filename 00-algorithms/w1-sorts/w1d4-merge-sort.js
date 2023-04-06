@@ -8,12 +8,12 @@
     - Worst case: O(n log(n)) linearithmic.
   Space: O(n) linear
   steps:
-    1. create a merge function to merge two already sorted arrays into a single
+    1. create a merge helper function to merge two already sorted arrays into a single
         sorted array.
       - you do NOT need to work in place, ok to use a new array
     2. create mergeSort function to sort the provided array
       - split the array in half and recursively merge the halves using the
-          previously created merge function.
+          previously created merge helper function.
       - splitting of arrays stops when array can no longer be split.
       - an array of 1 item is by definition sorted, so two arrays of 1 item
           can therefore be merged into a sorted array.
@@ -48,11 +48,31 @@ const expectedMerge4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  */
 function merge(left = [], right = []) {
   // 1. create empty array
+  const merged = [];
   // 2. create pointer to leftIdx
+  let leftIdx = 0;
   // 3. create pointer to rightIdx
+  let rightIdx = 0;
   // 4. loop (what kind of loop? what is the condition?)
+  while(leftIdx < left.length && rightIdx < right.length) {
+    if (left[leftIdx] < right[rightIdx]) {
+      merged.push(left[leftIdx]);
+      leftIdx++;
+    } else {
+      merged.push(right[rightIdx])
+    }
+  }
   // 5. one side may have finished before the other
   //    call in the cleanup crew
+  while(leftIdx < left.length) {
+    merged.push(left[leftIdx]);
+    leftIdx++;
+  }
+
+  while(rightIdx < right.length) {
+    merged.push(right[rightIdx]);
+    rightIdx++;
+  }
 }
 
 const numsOrdered = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -71,10 +91,22 @@ const expectedSort = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  */
 function mergeSort(nums = []) {
   // 1. base case
+  if (nums.length < 2) {
+    return nums;
+  }
+
   // 2. find middle index
+  const midIdx = Math.floor(nums.length / 2);
   // 3. create left slice
+  const left = nums.slice(0, midIdx);
   // 4. create right slice
+  const right = nums.slice(midIdx);
+
   // 5. recursive call for sortedLeft
+  const leftSorted = mergeSort(left);
   // 6. recursive call for sortedRight
+  const rightSorted = mergeSort(right);
+
   // 7. return merge(sortedLeft, sortedRight)
+  return merge(leftSorted, rightSorted);
 }

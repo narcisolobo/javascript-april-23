@@ -24,3 +24,6 @@ Here you will find all the code as well as detailed README files for all of the 
 4. Week 1, Day 4 - Forms
    1. [Forms and Validation](./02-react/w1d4-forms/)
    2. [Form Validation with useReducer](./02-react/w1d4-use-reducer/)
+5. Week 1, Day 5 - Map and Lifting State Up
+   1. [Iterating with `.map`](./02-react/w1d5-iterating-map/)
+   2. [Lifting State Up](./02-react/w1d5-lifting-state/)

@@ -27,3 +27,4 @@ Here you will find all the code as well as detailed README files for all of the 
 5. Week 1, Day 5 - Map and Lifting State Up
    1. [Iterating with `.map`](./02-react/w1d5-iterating-map/)
    2. [Lifting State Up](./02-react/w1d5-lifting-state/)
+   3. [Context API](./02-react/w1d5-context-api/)

@@ -28,3 +28,4 @@ Here you will find all the code as well as detailed README files for all of the 
    1. [Iterating with `.map`](./02-react/w1d5-iterating-map/)
    2. [Lifting State Up](./02-react/w1d5-lifting-state/)
    3. [Context API](./02-react/w1d5-context-api/)
+   4. [Context with useReducer BONUS](./02-react/w1d6-context-with-reducer/)

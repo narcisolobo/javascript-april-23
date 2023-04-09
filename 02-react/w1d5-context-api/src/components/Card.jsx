@@ -1,6 +1,6 @@
 import { useContext } from 'react';
+import CounterButton from './CounterButton';
 import CounterContext from '../context/CounterContext';
-import Button from './ButtonCounter';
 
 function Card() {
   const { counter } = useContext(CounterContext);
@@ -10,7 +10,7 @@ function Card() {
       <legend>Card</legend>
       <h3 className="fs-1">COUNT:</h3>
       <h2>{counter}</h2>
-      <Button />
+      <CounterButton />
     </fieldset>
   );
 }

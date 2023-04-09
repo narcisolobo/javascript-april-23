@@ -1,8 +1,9 @@
 import { useContext } from "react";
 import CounterContext from "../context/CounterContext";
 
-function Button() {
+function CounterButton() {
   const { setCounter } = useContext(CounterContext);
+
   const handleClick = () => {
     setCounter((prevCount) => prevCount + 1);
   };
@@ -15,4 +16,4 @@ function Button() {
   );
 }
 
-export default Button;
+export default CounterButton;

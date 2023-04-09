@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import CounterContext from './CounterContext';
+import CounterContext from "./CounterContext";
 
-function CounterProvider({ children }) {
-  const [counter, setCounter] = useState(0);
+function CounterProvider(props) {
+  const [counter, setCounter] = useState(38);
 
   return (
-    <CounterContext.Provider value={{counter, setCounter}}>
-      {children}
+    <CounterContext.Provider value={{ counter, setCounter }}>
+      {props.children}
     </CounterContext.Provider>
   )
 }

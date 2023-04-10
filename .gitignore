@@ -2,10 +2,16 @@
 node_modules
 .vscode
 
-# algorithms
-w1d5-partition.js
-w1d5-quick-sort.js
+w2d2-diagonal-difference.js
+w2d2-ordered-multiset-union.js
+w2d3-disjunctive-union.js
+w2d3-measure-water-levels.js
+w2d4-all-non-consecutive.js
+w2d4-find-consecutive-sums.js
+w2d4-k-most-frequent.js
+w2d5-two-sum.js
 
-w2-sets-and-arrays
 w3-objects
 w4-miscellaneous
+
+w2d1-apis

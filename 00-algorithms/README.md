@@ -5,12 +5,12 @@
 2. [Selection Sort](./w1-sorts/w1d2-selection-sort.js)
 3. [Insertion Sort](./w1-sorts/w1d3-insertion-sort.js)
 4. [Merge Sort](./w1-sorts/w1d4-merge-sort.js)
-<!-- 5. [Quick Sort](./w1-sorts/w1d5-quick-sort.js) -->
+5. [Quick Sort](./w1-sorts/w1d5-quick-sort.js)
 
 ## Week 2 - Sets and Arrays
-1. Ordered Intersection
-2. Ordered Multiset Union
-3. Diagonal Difference
+1. [Ordered Intersection](./w2-sets-and-arrays/w2d1-ordered-intersection.js)
+2. [Ordered Multiset Union](./w2-sets-and-arrays/w2d2-ordered-multiset-union.js)
+3. [Diagonal Difference](./w2-sets-and-arrays/w2d2-diagonal-difference.js)
 4. Disjunctive Union
 5. Measure Water Levels
 6. All Non-Consecutive

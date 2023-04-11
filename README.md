@@ -36,3 +36,4 @@ Here you will find all the code as well as detailed README files for all of the 
 7. Week 2, Day 2 - Client-Side Routing with React Router
    1. [Routing Overview](./02-react/w2d2-routing/)
    2. [React Router Demo](./02-react/w2d2-routing/routing-demo/)
+   3. [React Retrospective](./02-react/w2d2-routing/retrospective/)

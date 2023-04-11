@@ -53,5 +53,55 @@ const expected5 = [];
  *    not the combined amount from both sets.
  */
 function orderedMultisetUnion(sortedA, sortedB) {
-  // your code here
+  const union = [];
+  let idxA = 0;
+  let idxB = 0;
+
+  while (idxA < sortedA.length || idxB < sortedB.length) {
+    // cleanup
+    if (idxA === sortedA.length) {
+      // we're at end of sortedA
+      // push remaining sortedB
+      // into union
+      union.push(sortedB[idxB]);
+      idxB++;
+      continue;
+    }
+
+    // cleanup
+    if (idxB === sortedB.length) {
+      // we're at end of sortedB
+      // push remaining sortedA
+      // into union
+      union.push(sortedA[idxA]);
+      idxA++;
+      continue;
+    }
+
+    if (sortedA[idxA] < sortedB[idxB]) {
+      // a is smaller, add to union
+      // and increment
+      union.push(sortedA[idxA]);
+      idxA++;
+    } else if (sortedB[idxB] < sortedA[idxA]) {
+      // b is smaller, add to union
+      // and increment
+      union.push(sortedB[idxB]);
+      idxB++;
+    } else {
+      // a and b are equal add either one to union
+      // increment both
+      union.push(sortedA[idxA]);
+      idxA++;
+      idxB++;
+    }
+  }
+
+  return union;
 }
+
+console.log(orderedMultisetUnion(nums1A, nums1B));
+console.log(orderedMultisetUnion(nums2A, nums2B));
+console.log(orderedMultisetUnion(nums3A, nums3B));
+console.log(orderedMultisetUnion(nums4A, nums4B));
+console.log(orderedMultisetUnion(nums5A, nums5B));

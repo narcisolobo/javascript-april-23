@@ -44,9 +44,19 @@ const expected2 = 0;
  *    bottom right diagonal and the top right to bottom left diagonal.
  */
 function diagonalDifference(sqrMatrix) {
-  // your code here
+  let sum1 = 0;
+  let sum2 = 0;
+
+  for (let i = 0; i < sqrMatrix.length; i++) {
+    sum1 += sqrMatrix[i][i];
+    sum2 += sqrMatrix[sqrMatrix.length - 1 - i][i];
+  }
+  return Math.abs(sum1 - sum2);
 }
 
 function functionalDiagonalDifference(sqrMatrix) {
   // your code here
 }
+
+console.log(diagonalDifference(squareMatrix1));
+console.log(diagonalDifference(squareMatrix2));

@@ -43,5 +43,23 @@ const expected8 = -1;
  * @returns {number} The max water-level rise amount or -1 if none.
  */
 function measureWaterLevels(levels) {
-  // your code here
+  let largestRise = -1;
+  let currLowLevel = levels[0];
+
+  for (let i = 1; i < levels.length; i++) {
+    const isNewMax = levels[i] - currLowLevel > largestRise;
+    /**
+     * When falling, currLow needs to update so it doesn't get stuck in a prev
+     * cycle on an old low that is lower than the lowest part of current cycle.
+     */
+    const isWaterLevelFalling = levels[i] < levels[i - 1];
+    const isLowerThanCurrLow = levels[i] < currLowLevel;
+
+    if (isNewMax) {
+      largestRise = levels[i] - currLowLevel;
+    } else if (isWaterLevelFalling || isLowerThanCurrLow) {
+      currLowLevel = levels[i];
+    }
+  }
+  return largestRise === 0 ? -1 : largestRise;
 }

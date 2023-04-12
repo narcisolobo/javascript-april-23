@@ -1,7 +1,7 @@
 /*
-  Given two arrays of ints
+  Given two arrays of ints return the symmetric differences,
+  (aka disjunctive union)
 
-  return the symmetric differences, (aka disjunctive union)
     - these are the elements which are in either of the sets and
       not their intersection (the union without the intersection)
       think of a venn diagram filled in except the overlapping
@@ -27,6 +27,7 @@ const expected2 = [1, 2, 3, 4, 5, 6];
 const setA3 = [4, 1, 2, 3, 4];
 const setB3 = [1, 2, 3, 5, 5];
 const expected3 = [4, 5];
+
 /* 
   Explanation: 1, 2, and 3 are shared so are excluded
     4 and 5 are included because they exist only in 1 array, but
@@ -52,6 +53,20 @@ const expected5 = [1, 2, 3];
  * @returns {Array<number>} The union of the given sets but excluding the shared values (union without intersection).
  *    i.e., if the element is in one array and NOT the other, it should be included in the return.
  */
-function symmetricDifferences(numbersA, numbersB) {
-  // your code here
+function disjunctiveUnion(numbersA, numbersB) {
+  const dUnion = [];
+
+  for (const num of numbersA) {
+    if (!numbersB.includes(num) && !dUnion.includes(num)) {
+      dUnion.push(num);
+    }
+  }
+
+  for (const num of numbersB) {
+    if (!numbersA.includes(num) && !dUnion.includes(num)) {
+      dUnion.push(num);
+    }
+  }
+
+  return dUnion;
 }

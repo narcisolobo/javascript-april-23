@@ -20,3 +20,5 @@ const DUMMY_TODOS = [
   { id: 19, title: 'ultricies eu nibh quisque id', isComplete: true },
   { id: 20, title: 'libero nam dui proin leo', isComplete: false },
 ];
+
+module.exports = DUMMY_TODOS;

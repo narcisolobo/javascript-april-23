@@ -37,3 +37,8 @@ Here you will find all the code as well as detailed README files for all of the 
    1. [Routing Overview](./02-react/w2d2-routing/)
    2. [React Router Demo](./02-react/w2d2-routing/routing-demo/)
    3. [React Retrospective](./02-react/w2d2-routing/retrospective/)
+8. Week 2, Day 3 - Express APIs
+   1. [APIs](./03-express/01.apis/)
+   2. [Postman](./03-express/02.postman/)
+   3. [Building and Testing an API](./03-express/03.express/todos-api/)
+   4. [Band Faker](./03-express/03.express/band-faker/)

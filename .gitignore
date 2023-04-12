@@ -2,8 +2,6 @@
 node_modules
 .vscode
 
-w2d3-disjunctive-union.js
-w2d3-measure-water-levels.js
 w2d4-all-non-consecutive.js
 w2d4-find-consecutive-sums.js
 w2d4-k-most-frequent.js

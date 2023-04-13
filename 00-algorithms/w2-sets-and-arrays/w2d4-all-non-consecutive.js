@@ -36,5 +36,14 @@ const expected3 = [
  * @returns {NonConsecutiveNumbers}
  */
 function allNonConsecutive(sortedNumbers) {
-  // your code here
+  const nonConsecutive = [];
+
+  for (let i = 1; i < sortedNumbers.length; i++) {
+    const prev = sortedNumbers[i - 1];
+    const curr = sortedNumbers[i];
+    if (prev + 1 !== curr) {
+      nonConsecutive.push({ i, n: curr });
+    }
+  }
+  return nonConsecutive;
 }

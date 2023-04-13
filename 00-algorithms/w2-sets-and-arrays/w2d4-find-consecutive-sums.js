@@ -52,5 +52,17 @@ const expected5 = [
  *    only.
  */
 function findConsecutiveSums(numbers, targetSum) {
-  // your code here
+  const consecutiveSums = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    let sum = numbers[i];
+    for (let j = i + 1; j < numbers.length; j++) {
+      if (sum === targetSum) {
+        consecutiveSums.push(numbers.slice(i, j));
+      }
+      sum += numbers[j];
+    }
+  }
+
+  return consecutiveSums;
 }

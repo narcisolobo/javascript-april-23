@@ -13,8 +13,8 @@
 3. [Diagonal Difference](./w2-sets-and-arrays/w2d2-diagonal-difference.js)
 4. [Disjunctive Union](./w2-sets-and-arrays/w2d3-disjunctive-union.js)
 5. [Measure Water Levels](./w2-sets-and-arrays/w2d3-measure-water-levels.js)
-6. All Non-Consecutive
-7. Find Consecutive Sums
+6. [All Non-Consecutive](./w2-sets-and-arrays/w2d4-all-non-consecutive.js)
+7. [Find Consecutive Sums](./w2-sets-and-arrays/w2d4-find-consecutive-sums.js)
 8. Two Sum
 9. k Most Frequent
 

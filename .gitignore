@@ -2,8 +2,6 @@
 node_modules
 .vscode
 
-w2d4-all-non-consecutive.js
-w2d4-find-consecutive-sums.js
 w2d4-k-most-frequent.js
 w2d5-two-sum.js
 

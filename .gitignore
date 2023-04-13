@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 .vscode
+.env
 
 w2d4-k-most-frequent.js
 w2d5-two-sum.js

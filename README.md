@@ -42,3 +42,7 @@ Here you will find all the code as well as detailed README files for all of the 
    2. [Postman](./03-express/02.postman/)
    3. [Building and Testing an API](./03-express/03.express/todos-api/)
    4. [Band Faker](./03-express/03.express/band-faker/)
+9. Week 2, Day 4 - MongoDB
+   1.  [MongoDB](./04-mongodb-mongoose/)
+   2.  [Express + Mongoose](./04-mongodb-mongoose/express-mongoose/server/)
+   3.  [Ciso's Way](./04-mongodb-mongoose/ciso-server/server/)

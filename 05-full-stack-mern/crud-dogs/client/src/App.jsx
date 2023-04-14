@@ -1,18 +1,27 @@
 // axios request - api route
-import { useEffect, useState } from 'react';
-import axios from 'axios';
+import { Fragment } from 'react';
+
+import { Navigate, Route, Routes } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import Detail from './components/Detail';
+import EditDogForm from './components/EditDogForm';
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    axios
-      .get('http://localhost:8000/api/message')
-      .then((res) => setMessage(res.data.message))
-      .catch((err) => console.log(err));
-  }, []);
-
-  return message && <p>{message}</p>;
+  return (
+    <Fragment>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Navigate to="/dogs" />} />
+          <Route path="/dogs" element={<Main />} />
+          <Route path="/dogs/:id" element={<Detail />} />
+          <Route path="/dogs/:id/edit" element={<EditDogForm />} />
+        </Routes>
+      </div>
+    </Fragment>
+  );
 }
 
 export default App;

@@ -23,6 +23,10 @@ const dogSchema = Schema(
       type: Boolean,
       default: true,
     },
+    dogImage: {
+      type: String,
+      required: [true, 'Please enter image URL.'],
+    },
     dogDescription: String,
   },
   { timestamps: true }

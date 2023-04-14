@@ -47,4 +47,4 @@ Here you will find all the code as well as detailed README files for all of the 
    2.  [Express + Mongoose](./04-mongodb-mongoose/express-mongoose/server/)
    3.  [Ciso's Way](./04-mongodb-mongoose/ciso-server/server/)
 10. Week 2, Day 5 - Full Stack MERN
-   1.  [Full Stack MERN](./05-full-stack-mern/crud-dogs/)
+    1.  [Full Stack MERN](./05-full-stack-mern/crud-dogs/)

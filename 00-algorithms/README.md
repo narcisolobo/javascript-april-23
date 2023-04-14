@@ -15,8 +15,8 @@
 5. [Measure Water Levels](./w2-sets-and-arrays/w2d3-measure-water-levels.js)
 6. [All Non-Consecutive](./w2-sets-and-arrays/w2d4-all-non-consecutive.js)
 7. [Find Consecutive Sums](./w2-sets-and-arrays/w2d4-find-consecutive-sums.js)
-8. Two Sum
-9. k Most Frequent
+8. [Two Sum](./w2-sets-and-arrays/w2d5-two-sum.js)
+9. [k Most Frequent](./w2-sets-and-arrays/w2d4-k-most-frequent.js)
 
 ## Week 3 - Objects
 1. Object Entries

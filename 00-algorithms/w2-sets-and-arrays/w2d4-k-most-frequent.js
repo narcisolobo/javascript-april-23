@@ -17,6 +17,7 @@ const expected1 = [1, 2];
 const numbers2 = [0, 0, 0, 2, 2, 3];
 const k2 = 1;
 const expected2 = [0];
+
 // Explanation: k being 1 means return the single most frequent element
 
 // 6 occurs 6 times, 3 occurs 3 times, 2 occurs 2 times, 1 occurs 1 time.
@@ -34,5 +35,29 @@ const expected3 = [6, 3, 2];
  * @returns {Array<number>} The k most frequently occurring numbers.
  */
 function kMostFrequent(numbers, k) {
-  // your code here
+  const freqTable = {};
+  for (const num of numbers) {
+    if (freqTable.hasOwnProperty(num)) {
+      freqTable[num]++;
+    } else {
+      freqTable[num] = 1;
+    }
+  }
+
+  const entries = Object.entries(freqTable);
+  console.log('entries', entries);
+  const entriesSorted = entries.sort((a, b) => b[1] - a[1]);
+
+  const keysSorted = entriesSorted.map((entry) => entry[0]);
+
+  const result = [];
+  for (let i = 0; i < k; i++) {
+    result.push(parseInt(keysSorted[i]));
+  }
+
+  return result;
 }
+
+console.log(kMostFrequent(numbers1, k1));
+console.log(kMostFrequent(numbers2, k2));
+console.log(kMostFrequent(numbers3, k3));

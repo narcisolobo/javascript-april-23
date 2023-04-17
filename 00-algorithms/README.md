@@ -19,10 +19,11 @@
 9. [k Most Frequent](./w2-sets-and-arrays/w2d4-k-most-frequent.js)
 
 ## Week 3 - Objects
-1. Object Entries
-2. Find Objects
-3. Filter by Key
-4. Merge Carts
+1. [Object Entries](./w3-objects/w3d1-object-entries.js)
+2. [SQL Insert](./w3-objects/w3d1-sql-insert.js)
+3. Find Objects
+4. Filter by Key
+5. Merge Carts
 
 ## Week 4 - Miscellaneous
 1. Drop It

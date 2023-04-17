@@ -5,6 +5,7 @@ const dogSchema = Schema(
     dogName: {
       type: String,
       required: [true, 'Please enter name.'],
+      minLength: [2, 'Name of doggo must be at least two characters.'],
     },
     dogType: {
       type: String,
@@ -20,6 +21,7 @@ const dogSchema = Schema(
 );
 
 dogSchema.pre('save', function (next) {
+  console.log('pre save');
   next();
 });
 

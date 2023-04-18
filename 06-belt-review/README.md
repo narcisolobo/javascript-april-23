@@ -11,8 +11,9 @@
 - One-to-Many
 - Front-end validations
 - Sorting
-- Unique values
+- Unique values (mongoose-unique-validator)
 - socket.io
+- Validations on update
 - Deployment (send me your IP address within 24 hours)
 
 ## Taking the Exam
@@ -26,6 +27,7 @@
 
 ## Available resources
 - My Github
+- Learn Platform
 - Your code
 - Stack Overflow
 - Official documentation
@@ -36,4 +38,3 @@
 
 ## Extensions
 - I can extend your time for a bit, if I believe you can finish by then
-- 

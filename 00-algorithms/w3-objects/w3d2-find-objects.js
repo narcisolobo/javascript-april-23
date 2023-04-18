@@ -4,7 +4,7 @@
   return any object that matches all the key value pairs in
   the search criteria object.
 
-  Bonus: write a 2nd solution using build in methods to
+  Bonus: write a 2nd solution using built-in methods to
   practice functional programming.
 */
 
@@ -48,6 +48,11 @@ function findObjects(criteria, collection) {
  * - Time: O(?).
  * - Space: O(?).
  */
-function findObjectsFunctional(criteria, collection) {
-  // your code here
+function findObjectsFunctional(criteria = [], collection = []) {
+  return collection.filter((doc) =>
+    Object.keys(criteria).every((key) => doc[key] === criteria[key])
+  );
 }
+
+console.log(findObjectsFunctional(searchCriteria1, items));
+console.log(findObjectsFunctional(searchCriteria2, items));

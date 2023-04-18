@@ -50,4 +50,4 @@ Here you will find all the code as well as detailed README files for all of the 
     1.  [Full Stack MERN](./05-full-stack-mern/crud-dogs/)
 11. Week 3, Day 1 - Validations and Review (Part 1)
     1.  [Back End Validations](./05-full-stack-mern/validations/)
-    2.  [Belt Review (Part 1)](./06-belt-review/)
+    2.  [Belt Review (Part 1)](./06-belt-review/vinyl-countdown/server/)

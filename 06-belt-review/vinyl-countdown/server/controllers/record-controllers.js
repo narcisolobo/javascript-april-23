@@ -21,7 +21,7 @@ async function createRecord(req, res) {
 
 async function getAllRecords(req, res) {
   try {
-    const allRecords = await Record.find();
+    const allRecords = await Record.find().sort({ createdAt: -1 });
     res.status(200).json(allRecords);
   } catch (err) {
     console.log(err);

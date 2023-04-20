@@ -21,8 +21,8 @@
 ## Week 3 - Objects
 1. [Object Entries](./w3-objects/w3d1-object-entries.js)
 2. [SQL Insert](./w3-objects/w3d1-sql-insert.js)
-3. Find Objects
-4. Filter by Key
+3. [Find Objects](./w3-objects/w3d2-find-objects.js)
+4. [Filter by Key](./w3-objects/w3d4-filter-by-key.js)
 5. Merge Carts
 
 ## Week 4 - Miscellaneous

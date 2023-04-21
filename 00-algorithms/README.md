@@ -23,7 +23,7 @@
 2. [SQL Insert](./w3-objects/w3d1-sql-insert.js)
 3. [Find Objects](./w3-objects/w3d2-find-objects.js)
 4. [Filter by Key](./w3-objects/w3d4-filter-by-key.js)
-5. Merge Carts
+5. [Merge Carts](./w3-objects/w3d5-merge-carts.js)
 
 ## Week 4 - Miscellaneous
 1. Drop It

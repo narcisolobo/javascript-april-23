@@ -26,8 +26,8 @@
 5. [Merge Carts](./w3-objects/w3d5-merge-carts.js)
 
 ## Week 4 - Miscellaneous
-1. Drop It
-2. Can String Become Palindrom
+1. [Drop It](./w4-miscellaneous/w4d1-drop-it.js)
+2. [Can String Become Palindrome](./w4-miscellaneous/w4d1-can-string-become-palindrome.js)
 3. Group Objects
 4. Backspace String Compare
 5. Rehash

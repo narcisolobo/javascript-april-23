@@ -28,8 +28,8 @@
 ## Week 4 - Miscellaneous
 1. [Drop It](./w4-miscellaneous/w4d1-drop-it.js)
 2. [Can String Become Palindrome](./w4-miscellaneous/w4d1-can-string-become-palindrome.js)
-3. Group Objects
-4. Backspace String Compare
+3. [Group Objects](./w4-miscellaneous/w4d2-group-objects.js)
+4. [Backspace String Compare](./w4-miscellaneous/w4d2-backspace-string-compare.js)
 5. Rehash
 6. Length of Longest Substring
 7. Container with Most Water

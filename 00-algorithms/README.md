@@ -30,8 +30,8 @@
 2. [Can String Become Palindrome](./w4-miscellaneous/w4d1-can-string-become-palindrome.js)
 3. [Group Objects](./w4-miscellaneous/w4d2-group-objects.js)
 4. [Backspace String Compare](./w4-miscellaneous/w4d2-backspace-string-compare.js)
-5. Rehash
-6. Length of Longest Substring
+5. [Rehash](./w4-miscellaneous/w4d3-rehash.js)
+6. [Length of Longest Substring](./w4-miscellaneous/w4d3-length-of-longest-substring.js)
 7. Container with Most Water
 8. Compare Version Numbers
 9. Can Build String 1 From String 2

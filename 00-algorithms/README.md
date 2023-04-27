@@ -32,6 +32,6 @@
 4. [Backspace String Compare](./w4-miscellaneous/w4d2-backspace-string-compare.js)
 5. [Rehash](./w4-miscellaneous/w4d3-rehash.js)
 6. [Length of Longest Substring](./w4-miscellaneous/w4d3-length-of-longest-substring.js)
-7. Container with Most Water
-8. Compare Version Numbers
+7. [Container with Most Water](./w4-miscellaneous/w4d4-container-with-most-water.js)
+8. [Compare Version Numbers](./w4-miscellaneous/w4d4-compare-version-numbers.js)
 9. Can Build String 1 From String 2

@@ -34,4 +34,5 @@
 6. [Length of Longest Substring](./w4-miscellaneous/w4d3-length-of-longest-substring.js)
 7. [Container with Most Water](./w4-miscellaneous/w4d4-container-with-most-water.js)
 8. [Compare Version Numbers](./w4-miscellaneous/w4d4-compare-version-numbers.js)
-9. Can Build String 1 From String 2
+9. [Can Build String 1 From String 2](./w4-miscellaneous/w4d5-can-build-s1-from-s2.js)
+10. [Music Runtime](./w4-miscellaneous/w4d5-music-runtime.js)

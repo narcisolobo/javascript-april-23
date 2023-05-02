@@ -35,24 +35,24 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} The given array after being sorted.
  */
 function selectionSort(nums = []) {
-  for (let i = 0; i < numbers.length; i++) {
-    const selectedNumber = numbers[i];
+  for (let i = 0; i < nums.length; i++) {
+    const selectedNumber = nums[i];
     let indexOfMin = i;
-    let currentMin = numbers[indexOfMin];
+    let currentMin = nums[indexOfMin];
 
-    for (let j = i + 1; j < numbers.length; j++) {
-      const nextNumber = numbers[j];
+    for (let j = i + 1; j < nums.length; j++) {
+      const nextNumber = nums[j];
 
       if (nextNumber < currentMin) {
         indexOfMin = j;
-        currentMin = numbers[j];
+        currentMin = nums[j];
       }
     }
 
     if (currentMin < selectedNumber) {
       // Swap.
-      [numbers[i], numbers[indexOfMin]] = [numbers[indexOfMin], numbers[i]];
+      [nums[i], nums[indexOfMin]] = [nums[indexOfMin], nums[i]];
     }
   }
-  return numbers;
+  return nums;
 }

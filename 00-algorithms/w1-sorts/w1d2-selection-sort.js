@@ -35,7 +35,24 @@ const expected = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  * @returns {Array<number>} The given array after being sorted.
  */
 function selectionSort(nums = []) {
-  // nested loop structure
-  // outer loop - helps us separate the two parts of the array
-  // finish writing the pseudocode
+  for (let i = 0; i < numbers.length; i++) {
+    const selectedNumber = numbers[i];
+    let indexOfMin = i;
+    let currentMin = numbers[indexOfMin];
+
+    for (let j = i + 1; j < numbers.length; j++) {
+      const nextNumber = numbers[j];
+
+      if (nextNumber < currentMin) {
+        indexOfMin = j;
+        currentMin = numbers[j];
+      }
+    }
+
+    if (currentMin < selectedNumber) {
+      // Swap.
+      [numbers[i], numbers[indexOfMin]] = [numbers[indexOfMin], numbers[i]];
+    }
+  }
+  return numbers;
 }

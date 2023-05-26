@@ -8,7 +8,7 @@ function add1(num) {
 }
 ```
 
-In JavaScript, functions are "first class citizens," they can do what everything else can do. This means that functions can be assigned to variables, they can be passed as arguments to other functions, they can be returned from a function, etc.
+In JavaScript, functions are "first class citizens." This means that functions can be assigned to variables, they can be passed as arguments to other functions, they can be returned from a function, etc.
 
 With that in mind, let's rewrite the above function declaration into a *function expression*. We will assign an anonymous function as the value of a variable named `add1`.
 
